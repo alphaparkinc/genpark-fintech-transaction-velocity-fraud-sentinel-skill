@@ -1,0 +1,29 @@
+{
+  "name": "genpark-fintech-transaction-velocity-fraud-sentinel-skill",
+  "version": "1.0.0",
+  "description": "Real-time transaction velocity profiler and fraud sentinel detecting card-testing clusters, abnormal volume spikes, and account takeovers.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "fraud-detection",
+    "fintech",
+    "velocity-profiling",
+    "anti-fraud",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "evaluate_transaction_risk",
+      "description": "Score real-time transaction risk based on sliding velocity and anomaly flags."
+    },
+    {
+      "name": "detect_card_testing_cluster",
+      "description": "Identify rapid sequential card testing bursts across multiple cards."
+    },
+    {
+      "name": "run_benchmark_fraud_sentinel",
+      "description": "Run transaction fraud sentinel test cases."
+    }
+  ]
+}
